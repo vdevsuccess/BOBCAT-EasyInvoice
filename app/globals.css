@@ -145,3 +145,19 @@ select {
   .no-print { display: none !important; }
   body { background: white; }
 }
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .fg2, .fg3, .fg4 {
+    grid-template-columns: 1fr !important;
+  }
+  
+  .card-body, .card-head {
+    padding: 16px !important;
+  }
+  
+  /* Reduce horizontal padding everywhere */
+  body > div > div {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+}
