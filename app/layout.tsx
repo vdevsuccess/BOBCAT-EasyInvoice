@@ -12,6 +12,10 @@ export default function RootLayout({
       <head>
         <title>Bobcat Dealer Invoice Portal</title>
         <meta name="description" content="Wells Fargo Booking & Funding — Dealer Invoice Preparation" />
+        
+        {/* 🔥 THIS IS THE MOST IMPORTANT LINE FOR MOBILE */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
         <link
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Roboto+Condensed:wght@700;900&display=swap"
           rel="stylesheet"
